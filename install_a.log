@@ -1,0 +1,1783 @@
+root@RealtekNAS:/home/rtk-board# ./install_a  install.img-rtk
+
+
+***************************************************************************
+DHC install_a, date:Apr 17 2014, time:14:19:00 REV:
+***************************************************************************
+[DEBUG][install_a.cpp:main():103]argc:2
+[DEBUG][install_a.cpp:main():104], argv[0]=./install_a
+[DEBUG][install_a.cpp:main():104], argv[1]=install.img-rtk
+
+[DEBUG][install_a.cpp:main():199]opt_str=(null) , tgt_dev=(null), compress_srting=(null)
+
+[DEBUG][install_a.cpp:main():211]package file path: install.img-rtk
+
+[DEBUG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1172]prtkimgdesc->tarinfo.tarfile_path:install.img-rtk
+
+[INFO][src/rtk_tar.cpp:parse_tar():117]@parse_tar       install.img-rtk   15
+
+[INFO][src/rtk_tar.cpp:parse_tar():136]tarfile_path:install.img-rtk, tarfile_size: 409296896 Bytes (399704 KB)
+
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():51]hash_value :
+
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x71
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xA5
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x65
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x13
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xA2
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xDA
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xE3
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x27
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x38
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xDA
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xF1
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x7C
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x4B
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xF8
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x2C
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x00
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():56]
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = ALSADaemon
+filesize =    425232 (  415KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = config.txt
+filesize =       687 (    0KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2100]Got config.txt
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = customer.tar
+filesize =   1341440 ( 1310KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = flash_erase
+filesize =     76172 (   74KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = font.ttf
+filesize =    143300 (  139KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]font.ttf can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = install_a
+filesize =    227432 (  222KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]install_a can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = nandwrite
+filesize =     79596 (   77KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/
+filesize =         0 (    0KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/squashfs1.img
+filesize = 368574464 (359936KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/squashfs1.img can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/rescue.nand.dtb
+filesize =     10954 (   10KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/rescue.nand.dtb can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/ubifs_etc.img
+filesize =  29360128 (28672KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/ubifs_etc.img can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/nand.uImage
+filesize =   4704048 ( 4593KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/nand.uImage can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/android.nand.dtb
+filesize =     20196 (   19KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/android.nand.dtb can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/factory.tar
+filesize =     10240 (   10KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/rescue.root.nand.cpio.gz_pad.img
+filesize =   4194304 ( 4096KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]omv/rescue.root.nand.cpio.gz_pad.img can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = postprocess.sh
+filesize =      6560 (    6KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = ubiformat
+filesize =    105916 (  103KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():161]tar magic error
+
+[INFO][src/rtk_config.cpp:rtk_load_config():475]
+[Load configuration]
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract config.txt file into /tmp/config.txt...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x00068000 (687 Bytes = 0 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract config.txt from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+
+
+[Part list]
+ efs   part_name mount_point                   efs  filename                                min_size
+ (15)  rootfs                                  (5)                                                   0
+ (28)  etc                                     (5)                                                   0
+ (17)  cache                                   (5)                                                   0
+ (18)  data                                    (5)                                                   0
+ (19)  system                                  (5)                                                   0
+ (16)  res                                     (5)                                                   0
+ (20)                                          (6)                                                   0
+ (21)                                          (6)                                                   0
+ (22)                                          (6)                                                   0
+ (23)                                          (6)                                                   0
+ (24)                                          (6)                                                   0
+ (25)                                          (6)                                                   0
+ (26)                                          (6)                                                   0
+ (27)                                          (6)                                                   0
+
+
+
+[Part list]
+ efs   part_name mount_point                   efs  filename                                min_size
+ (15)  rootfs                                  (5)                                                   0
+ (28)  etc                                     (5)                                                   0
+ (17)  cache                                   (5)                                                   0
+ (18)  data                                    (5)                                                   0
+ (19)  system                                  (5)                                                   0
+ (16)  res                                     (5)                                                   0
+ (20)                                          (6)                                                   0
+ (21)                                          (6)                                                   0
+ (22)                                          (6)                                                   0
+ (23)                                          (6)                                                   0
+ (24)                                          (6)                                                   0
+ (25)                                          (6)                                                   0
+ (26)                                          (6)                                                   0
+ (27)                                          (6)                                                   0
+
+
+
+[Part list]
+ efs   part_name mount_point                   efs  filename                                min_size
+ (15)  rootfs                                  (5)                                                   0
+ (28)  etc                                     (5)                                                   0
+ (17)  cache                                   (5)                                                   0
+ (18)  data                                    (5)                                                   0
+ (19)  system                                  (5)                                                   0
+ (16)  res                                     (5)                                                   0
+ (20)                                          (6)                                                   0
+ (21)                                          (6)                                                   0
+ (22)                                          (6)                                                   0
+ (23)                                          (6)                                                   0
+ (24)                                          (6)                                                   0
+ (25)                                          (6)                                                   0
+ (26)                                          (6)                                                   0
+ (27)                                          (6)                                                   0
+
+
+
+[Part list]
+ efs   part_name mount_point                   efs  filename                                min_size
+ (15)  rootfs                                  (5)                                                   0
+ (28)  etc                                     (5)                                                   0
+ (17)  cache                                   (5)                                                   0
+ (18)  data                                    (5)                                                   0
+ (19)  system                                  (5)                                                   0
+ (16)  res                                     (5)                                                   0
+ (20)                                          (6)                                                   0
+ (21)                                          (6)                                                   0
+ (22)                                          (6)                                                   0
+ (23)                                          (6)                                                   0
+ (24)                                          (6)                                                   0
+ (25)                                          (6)                                                   0
+ (26)                                          (6)                                                   0
+ (27)                                          (6)                                                   0
+
+
+[DEBUG][src/rtk_config.cpp:fill_yn_install_factory():365]fill_yn_install_factory(y)(1)
+
+[LOG][src/rtk_config.cpp:fill_yn_install_factory():365]fill_yn_install_factory(y)
+
+[DEBUG][src/rtk_config.cpp:fill_yn_start_customer():368]fill_yn_start_customer(y)(1)
+
+[LOG][src/rtk_config.cpp:fill_yn_start_customer():368]fill_yn_start_customer(y)
+
+[DEBUG][src/rtk_config.cpp:fill_yn_update_etc():367]fill_yn_update_etc(y)(1)
+
+[LOG][src/rtk_config.cpp:fill_yn_update_etc():367]fill_yn_update_etc(y)
+
+[DEBUG][src/rtk_config.cpp:fill_var_install_avfile_count():394]fill_var_install_avfile_count(0)(1)
+
+[LOG][src/rtk_config.cpp:fill_var_install_avfile_count():394]fill_var_install_avfile_count(0)
+
+[DEBUG][src/rtk_config.cpp:fill_var_install_avfile_audio_size():396]fill_var_install_avfile_audio_size(1536)(4)
+
+[LOG][src/rtk_config.cpp:fill_var_install_avfile_audio_size():396]fill_var_install_avfile_audio_size(1536)
+
+[DEBUG][src/rtk_config.cpp:fill_var_rba_percentage():401]fill_var_rba_percentage(5)(1)
+
+[LOG][src/rtk_config.cpp:fill_var_rba_percentage():401]fill_var_rba_percentage(5)
+
+[DEBUG][src/rtk_config.cpp:fill_var_reboot_delay():399]fill_var_reboot_delay(5)(1)
+
+[LOG][src/rtk_config.cpp:fill_var_reboot_delay():399]fill_var_reboot_delay(5)
+
+[DEBUG][src/rtk_config.cpp:fill_var_customer_delay():400]fill_var_customer_delay(0)(1)
+
+[LOG][src/rtk_config.cpp:fill_var_customer_delay():400]fill_var_customer_delay(0)
+
+[LOG][src/rtk_config.cpp:add_install_factory_command():349]Add ifcmd0(53): "cd ../../;cp -rpf tmp/install_factory/* tmp/factory/;"
+
+[LOG][src/rtk_config.cpp:add_install_factory_command():355]Add ifcmd1(29): "rm -rf /tmp/factory/recovery;"
+
+[DEBUG][src/rtk_config.cpp:fill_var_secure_boot():403]fill_var_secure_boot(0)(1)
+
+[LOG][src/rtk_config.cpp:fill_var_secure_boot():403]fill_var_secure_boot(0)
+
+[INFO][src/rtk_config.cpp:add_firmware():187]Add firmware(rescueDT), filename(omv/rescue.nand.dtb), target(0x00100100)
+
+[INFO][src/rtk_config.cpp:add_firmware():187]Add firmware(kernelDT), filename(omv/android.nand.dtb), target(0x00100100)
+
+[INFO][src/rtk_config.cpp:add_firmware():187]Add firmware(rescueRootFS), filename(omv/rescue.root.nand.cpio.gz_pad.img), target(0x02200000)
+
+[INFO][src/rtk_config.cpp:add_firmware():187]Add firmware(linuxKernel), filename(omv/nand.uImage), target(0x03000000)
+
+[INFO][src/rtk_config.cpp:add_partition():291]Add partition(rootfs), mount_point(/), filesystem(squash:2), size(0)
+
+[INFO][src/rtk_config.cpp:add_partition():291]Add partition(etc), mount_point(etc), filesystem(ubifs:5), size(75497472)
+
+[DEBUG][src/rtk_config.cpp:rtk_post_config_init():453]set install avfile video size to default 2560KB
+
+[DEBUG][src/rtk_config.cpp:rtk_post_config_init():458]set update_cavfile to default 1
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:mkdir /dev/graphics/
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:ln -s /dev/fb0 /dev/graphics/fb0
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract alsadaemon file into /tmp/alsadaemon...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x00000000 (425232 Bytes = 415 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract alsadaemon from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[LOG][src/rtk_customer.cpp:rtk_customer_init():133]Start ALSADaemon(/tmp/alsadaemon)
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:chmod 777 /tmp/alsadaemon
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command: /tmp/alsadaemon &
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract customer file into /tmp/customer...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x00068600 (1341440 Bytes = 1310 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract customer from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:mkdir -p /tmp/installUI;tar xvf /tmp/customer -C /tmp/installUI
+
+install_UI.exe
+res/
+res/update_bg.png
+res/update_unfocus.png
+res/update_bg_fail.png
+res/update_focus.png
+res/update_bg_ok.png
+res/DroidSans.ttf
+[LOG][src/rtk_customer.cpp:rtk_customer_init():152][Start customer]
+
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:chmod 777 /tmp/installUI/install_UI.exe
+
+[LOG][src/rtk_customer.cpp:rtk_customer_init():167]
+
+[INFO][src/rtk_mtd.cpp:rtk_open_mtd_block():77]Open MTD_BLOCK /dev/mtdblock0
+
+[INFO][src/rtk_mtd.cpp:rtk_open_mtd_char():58]Open MTD_CHAR /dev/mtd0
+
+[LOG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_meminfo():473]set RBA percentage to 5
+
+[INFO][src/rtk_parameter.cpp:set_system_param():61]sys_param(bootcode_start=0x0 bootcode_size=0x7400000 factory_start=0x7400000 factory_size=0x800000 boot_flash=nand)
+
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_meminfo():494]MEMINFO flash_type:4 flash_size:0x1cc000000 (7536640 KB = 7360MB) mtd_erasesize:0x00200000 (2048 KB), page_size:0x00002000
+
+[DEBUG][src/rtk_parameter.cpp:get_parameter_value():109]Got system_parameter: bootcode_start 0x0
+
+[DEBUG][src/rtk_parameter.cpp:get_parameter_value():109]Got system_parameter: bootcode_size 0x7400000
+
+[DEBUG][src/rtk_parameter.cpp:get_parameter_value():109]Got system_parameter: factory_start 0x7400000
+
+[DEBUG][src/rtk_parameter.cpp:get_parameter_value():109]Got system_parameter: factory_size 0x800000
+
+[INFO][src/rtk_parameter.cpp:get_parameter_value():96]Can't find string(boot_part)
+
+[FAIL][src/rtk_imgdesc.cpp:fill_rtkimgdesc_meminfo():573]boot_part not found!
+
+[LOG][src/rtk_imgdesc.cpp:fill_rtkpartdesc_by_dynamicTbl():361]We don't need handle dynamic partiton table!
+[INFO][src/rtk_tar.cpp:parse_tar():117]@parse_tar       install.img-rtk   15
+
+[INFO][src/rtk_tar.cpp:parse_tar():136]tarfile_path:install.img-rtk, tarfile_size: 409296896 Bytes (399704 KB)
+
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():51]hash_value :
+
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x71
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xA5
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x65
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x13
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xA2
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xDA
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xE3
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x27
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x38
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xDA
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xF1
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x7C
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x4B
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0xF8
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x2C
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():54]0x00
+[DEBUG][src/rtk_tar.cpp:rtk_dump_hash_value():56]
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = ALSADaemon
+filesize =    425232 (  415KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = config.txt
+filesize =       687 (    0KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2100]Got config.txt
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = customer.tar
+filesize =   1341440 ( 1310KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = flash_erase
+filesize =     76172 (   74KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = font.ttf
+filesize =    143300 (  139KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]font.ttf can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = install_a
+filesize =    227432 (  222KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2225]install_a can't be figured
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = nandwrite
+filesize =     79596 (   77KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/
+filesize =         0 (    0KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/squashfs1.img
+filesize = 368574464 (359936KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2012]rtk_part.filename: omv/squashfs1.img, filename: omv/squashfs1.img
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/rescue.nand.dtb
+filesize =     10954 (   10KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2001]rtk_fw.filename: omv/rescue.nand.dtb, filename: omv/rescue.nand.dtb
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/ubifs_etc.img
+filesize =  29360128 (28672KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2012]rtk_part.filename: omv/ubifs_etc.img, filename: omv/ubifs_etc.img
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/nand.uImage
+filesize =   4704048 ( 4593KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2001]rtk_fw.filename: omv/nand.uImage, filename: omv/nand.uImage
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/android.nand.dtb
+filesize =     20196 (   19KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2001]rtk_fw.filename: omv/android.nand.dtb, filename: omv/android.nand.dtb
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/factory.tar
+filesize =     10240 (   10KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = omv/rescue.root.nand.cpio.gz_pad.img
+filesize =   4194304 ( 4096KB), ustarin = ustar
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_file():2001]rtk_fw.filename: omv/rescue.root.nand.cpio.gz_pad.img, filename: omv/rescue.root.nand.cpio.gz_pad.img
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = postprocess.sh
+filesize =      6560 (    6KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():184]filename = ubiformat
+filesize =    105916 (  103KB), ustarin = ustar
+
+[DEBUG][src/rtk_tar.cpp:parse_tar():161]tar magic error
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[15](rootfs)->filename[omv/squashfs1.img] compress_type[img]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[16](res)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[17](cache)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[18](data)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[19](system)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[20](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[21](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[22](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[23](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[24](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[25](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[26](Unkonwn)->filename[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[27](Unkonwn)->filename[] compress[  914.653360] E/DC: [DC_Swap_Buffer 615] phyAddr = 0x1e800000 pdc_info->RING_HEADER = 0x00000000
+_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_part():1014]rtk_fw[28](etc)->filename[omv/ubifs_etc.img] compress_type[img]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[0](linuxKernel)filename=[omv/nand.uImage] compress_type[bin]
+
+[DEBUG][src[  914.689782] E/DC: [DC_Swap_Buffer 615] phyAddr = 0x1e800000 pdc_info->RING_HEADER = 0x00000000
+/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[1](rescueDT)filename=[omv/rescue.nand.dtb] compress_type[bin]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[2](kernelDT)filename=[omv/android.nand.dtb] compress_type[bin]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[3](rescueRootFS)filename=[omv/rescue.root.nand.cpio.gz_pad.img] compress_type[bin]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[4](kernelRootFS)filename=[[  914.731150] E/DC: [DC_Swap_Buffer 615] phyAddr = 0x1e800000 pdc_info->RING_HEADER = 0x00000000
+] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[5](audioKernel)filename=[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[6](videoKernel)filename=[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[7](video2Kernel)filename=[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fi[  914.774175] E/DC: [DC_Swap_Buffer 615] phyAddr = 0x1e800000 pdc_info->RING_HEADER = 0x00000000
+ll_rtk_fw():1045]rtk_fw[8](ecpuKernel)filename=[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[9](audioFile)filename=[] compress_type[]
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtk_fw():1045]rtk_fw[10](videoFile)filename=[] compress_type[]
+
+[DEBUG][src/rtk_factory.cpp:factory_init():163]dir is NULL
+
+[DEBUG][src/rtk_paramet[  914.814268] E/DC: [DC_Swap_Buffer 615] phyAddr = 0x1e800000 pdc_info->RING_HEADER = 0x00000000
+er.cpp:get_parameter_value():109]Got system_parameter: factory_start 0x7400000
+
+[DEBUG][src/rtk_parameter.cpp:get_parameter_value():109]Got system_parameter: factory_size 0x800000
+
+[DEBUG][src/rtk_factory.cpp:factory_init():220]gfactory_start = 0x7400000
+
+[DEBUG][src/rtk_factory.cpp:factory_init():221]gfactory_block_size = 0x400000
+
+[DEBUG][src/rtk_factory.cpp:factory_init():222]gfactory_size = 0x400000
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:mkdir -p /tmp/factory
+
+"VERSION:"
+do pan display
+[INFO][src/rtk_factory.cpp:factory_find_latest_update():149]pp_ok = 3 current_pp = 0 seq_num = 273 tarsize=134656
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=58 | tar x
+
+[LOG][src/rtk_boottable.cpp:read_boottable():503]parsing layout.txt
+
+[DEBUG][src/rtk_boottable.cpp:read_boottable():581]boottable->part.partcount:2
+
+[DEBUG][src/rtk_boottable.cpp:read_boottable():583]read boottable success
+
+[LOG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1296]reserved remapping size is excluded!
+
+[LOG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1558]
+[system info] flash_type=0x00000004, flash_size=0x1cc000000 (7536640 KB), mtd_erasesize=0x00200000 (2048 KB), page_size=0x00002000, total_sector=3680
+
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1600]reserved size=0
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]            etc flash_ofs:0x01c7800000 ~ flash_end:0x01cbffffff size_align:0x0004800000(00036 sectors) img_size:0x0001c00000( 28672 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]         rootfs flash_ofs:0x01b1800000 ~ flash_end:0x01c77fffff size_align:0x0016000000(00176 sectors) img_size:0x0015f80000(359936 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]     FREE SPACE flash_ofs:0x0008c00000 ~ flash_end:0x01b17fffff size_align:0x01a8c00000(00000 sectors) img_size:0x0000000000(     0 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]   rescueRootFS flash_ofs:0x0008800000 ~ flash_end:0x0008bfffff size_align:0x0000400000(00002 sectors) img_size:0x0000400000(  4096 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]    linuxKernel flash_ofs:0x0008200000 ~ flash_end:0x00087fffff size_align:0x0000600000(00003 sectors) img_size:0x000047c730(  4593 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]       kernelDT flash_ofs:0x0008000000 ~ flash_end:0x00081fffff size_align:0x0000200000(00001 sectors) img_size:0x0000004ee4(    19 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]       rescueDT flash_ofs:0x0007e00000 ~ flash_end:0x0007ffffff size_align:0x0000200000(00001 sectors) img_size:0x0000002aca(    10 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]       fw table flash_ofs:0x0007c00000 ~ flash_end:0x0007dfffff size_align:0x0000200000(00001 sectors) img_size:0x0000000000(     0 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]        factory flash_ofs:0x0007400000 ~ flash_end:0x0007bfffff size_align:0x0000800000(00004 sectors) img_size:0x0000800000(  8192 KBytes)
+
+[DEBUG][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1613]       bootcode flash_ofs:0x0000000000 ~ flash_end:0x00073fffff size_align:0x0007400000(00058 sectors) img_size:0x0007400000(118784 KBytes)
+
+
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1635]    linuxKernel target_offset:0x03000000 tarfile_offset:0x17db4800
+
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1635]       rescueDT target_offset:0x00100100 tarfile_offset:0x161b1800
+
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1635]       kernelDT target_offset:0x00100100 tarfile_offset:0x18231200
+
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1635]   rescueRootFS target_offset:0x02200000 tarfile_offset:0x18238e00
+
+
+[Layout View]
+   +---------------------------------+ 0x0001cc000000
+   |         etc (     73728KBytes)  |
+   +---------------------------------+ 0x0001c7800000
+   |      rootfs (    360448KBytes)  |
+   +---------------------------------+ 0x0001b1800000
+   |  FREE SPACE (   6959104KBytes)  |
+   +---------------------------------+ 0x000008c00000
+   |rescueRootFS (      4096KBytes)  |
+   +---------------------------------+ 0x000008800000
+   | linuxKernel (      6144KBytes)  |
+   +---------------------------------+ 0x000008200000
+   |    kernelDT (      2048KBytes)  |
+   +---------------------------------+ 0x000008000000
+   |    rescueDT (      2048KBytes)  |
+   +---------------------------------+ 0x000007e00000
+   |    fw table (      2048KBytes)  |
+   +---------------------------------+ 0x000007c00000
+   |     factory (      8192KBytes)  |
+   +---------------------------------+ 0x000007400000
+   |    bootcode (    118784KBytes)  |
+   +---------------------------------+ 0x000000000000
+[INFO][src/rtk_imgdesc.cpp:fill_rtkimgdesc_layout():1700]
+total layout is 591396864 bytes (577536Kbytes).
+free space 7126122496 bytes (6959104Kbytes).
+
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+libpng warning: iCCP: known incorrect sRGB profile
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=58 | tar x
+
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: Interlace handling should be turned on when using png_read_image
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: Interlace handling should be turned on when using png_read_image
+[LOG][src/rtk_boottable.cpp:read_boottable():503]parsing layout.txt
+
+[DEBUG][src/rtk_boottable.cpp:read_boottable():581]boottable->part.partcount:2
+
+[DEBUG][src/rtk_boottable.cpp:read_boottable():583]read boottable success
+
+[LOG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1305]
+
+Write boottable
+
+[DEBUG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1306]claire skip one fsync
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=58 | tar x
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 1 seq_num = 274
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=60 conv=notrunc > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.39981 s, 360 kB/s
+
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:echo -n RESCUE__ | dd of=/dev/mtdblock0 bs=1 seek=130023424
+
+8+0 records in
+8+0 records out
+8 bytes (8 B) copied, 0.886831 s, 0.0 kB/s
+[LOG][src/rtk_tagflow.cpp:tagflow3():34]update_etc=y, start update etc
+"BURN_PROGRESS:6"
+
+[INFO][src/rtk_burn.cpp:rtk_burn_ubifs_img():737]
+Burning etc efwtype(28) partition...
+
+[INFO][src/rtk_burn.cpp:rtk_burn_ubifs_img():746]  flash_offset:0x1c7800000 flash_allo_size:0x04800000 bytes (36 sector)
+tarfile_offset:0x161b4600      image_size:0x01c00000 bytes (  29360128 Bytes =  28672 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract flash_erase file into /tmp/flash_erase...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x001b0000 (76172 Bytes = 74 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract flash_erase from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract nandwrite file into /tmp/nandwrite...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x0021da00 (79596 Bytes = 77 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract nandwrite from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract ubiformat file into /tmp/ubiformat...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x1863ac00 (105916 Bytes = 103 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract ubiformat from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:chmod 777 /tmp/flash_erase /tmp/nandwrite /tmp/ubiformat
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/ubifs_etc.img | /tmp/ubiformat /dev/mtd0 -y -b 7642021888 -t 75497472 -S 29360128 -f -
+
+ubiformat: set sb:3644
+ubiformat: set bc:36
+ubiformat: mtd0 (nand), size 7717519360 bytes (7.2 GiB), 3680 eraseblocks of 2097152 bytes (2.0 MiB), min. I/O size 8192 bytes
+libscan: scanning eraseblock 3679 -- 100 % complete
+ubiformat: 35 eraseblocks have valid erase counter, mean value is 7
+ubiformat: warning!: 1 of 36 eraseblocks contain non-ubifs data
+ubiformat: flashing eraseblock 3657 -- 100 % complete
+ubiformat: formatting eraseblock 3679 -- 100 % complete
+[INFO][src/rtk_burn.cpp:rtk_burn_ubifs_img():796]total time: 2 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_ubifs_img():797]etc partition Complete!!
+
+
+[INFO][src/rtk_burn.cpp:rtk_burn_single_part():1467]total time: 2 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_single_part():1468]Complete!!
+
+
+[DEBUG][src/rtk_boottable.cpp:remove_part_by_partname():865]Can't find the index of etc
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():879]
+Burning linuxKernel filename(omv/nand.uImage) efwtype(0)...
+"BURN_PROGRESS:8"
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():918]  flash_offset:0x08200000 (65 sector) ~ flash_end:0x087fffff (67 sector) flash_allo_size:0x00600000 bytes (3 sector)
+tarfile_offset:0x17db4800      image_size:0x0047c730 bytes (   4704048 Bytes =   4593 KB)
+
+[DEBUG][src/rtk_burn.cpp:rtk_burn_img():956]start burning
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 136314880 3
+
+Erasing 2048 Kibyte @ 8600000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/nand.uImage | /tmp/nandwrite -s 136314880 -p /dev/mtd0 -
+
+Writing data to block 65 at offset 0x8200000
+Writing data to block 66 at offset 0x8400000
+Writing data to block 67 at offset 0x8600000
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1162]total time: 1 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1163]Complete!!
+
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():879]
+Burning rescueDT filename(omv/rescue.nand.dtb) efwtype(1)...
+"BURN_PROGRESS:8"
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():918]  flash_offset:0x07e00000 (63 sector) ~ flash_end:0x07ffffff (63 sector) flash_allo_size:0x00200000 bytes (1 sector)
+tarfile_offset:0x161b1800      image_size:0x00002aca bytes (     10954 Bytes =     10 KB)
+
+[DEBUG][src/rtk_burn.cpp:rtk_burn_img():956]start burning
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 132120576 1
+
+Erasing 2048 Kibyte @ 7e00000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/rescue.nand.dtb | /tmp/nandwrite -s 132120576 -p /dev/mtd0 -
+
+Writing data to block 63 at offset 0x7e00000
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1162]total time: 0 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1163]Complete!!
+
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():879]
+Burning "BURN_PROGRESS:9"
+kernelDT filename(omv/android.nand.dtb) efwtype(2)...
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():918]  flash_offset:0x08000000 (64 sector) ~ flash_end:0x081fffff (64 sector) flash_allo_size:0x00200000 bytes (1 sector)
+tarfile_offset:0x18231200      image_size:0x00004ee4 bytes (     20196 Bytes =     19 KB)
+
+[DEBUG][src/rtk_burn.cpp:rtk_burn_img():956]start burning
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 134217728 1
+
+Erasing 2048 Kibyte @ 8000000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/android.nand.dtb | /tmp/nandwrite -s 134217728 -p /dev/mtd0 -
+
+Writing data to block 64 at offset 0x8000000
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1162]total time: 0 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1163]Complete!!
+
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():879]
+Burning rescueRootFS filename(omv/rescue.root.nand.cpio.gz_pad.img) efwtype(3)...
+"BURN_PROGRESS:10"
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():918]  flash_offset:0x08800000 (68 sector) ~ flash_end:0x08bfffff (69 sector) flash_allo_size:0x00400000 bytes (2 sector)
+tarfile_offset:0x18238e00      image_size:0x00400000 bytes (   4194304 Bytes =   4096 KB)
+
+[DEBUG][src/rtk_burn.cpp:rtk_burn_img():956]start burning
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 142606336 2
+
+Erasing 2048 Kibyte @ 8a00000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/rescue.root.nand.cpio.gz_pad.img | /tmp/nandwrite -s 142606336 -p /dev/mtd0 -
+
+Writing data to block 68 at offset 0x8800000
+Writing data to block 69 at offset 0x8a00000
+Writing data to block 70 at offset 0x8c00000
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1162]total time: 0 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1163]Complete!!
+
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():132]There is no KERNEL_ROOTFS partition
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():151]There is no AUDIO FW
+
+[INFO][src/rtk_config.cpp:etag_to_fwtype():111]unknown E_TAG(16)
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():185]There are no Audio bootfile and logo
+
+[INFO][src/rtk_config.cpp:etag_to_fwtype():111]unknown E_TAG(17)
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():239]There are no Video bootfile and logo
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():879]
+Burning rootfs filename(omv/squashfs1.img) efwtype(15)...
+"BURN_PROGRESS:97"
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():918]  flash_offset:0x1b1800000 (3468 sector) ~ flash_end:0x1c77fffff (3643 sector) flash_allo_size:0x16000000 bytes (176 sector)
+tarfile_offset:0x00231600      image_size:0x15f80000 bytes ( 368574464 Bytes = 359936 KB)
+
+[DEBUG][src/rtk_burn.cpp:rtk_burn_img():956]start burning
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 7272923136 176
+
+Erasing 2048 Kibyte @ 1c7600000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar -O -xf install.img-rtk omv/squashfs1.img | /tmp/nandwrite -s 7272923136 -p /dev/mtd0 -
+
+Writing data to block 3468 at offset 0x1b1800000
+Writing data to block 3469 at offset 0x1b1a00000
+Writing data to block 3470 at offset 0x1b1c00000
+Writing data to block 3471 at offset 0x1b1e00000
+Writing data to block 3472 at offset 0x1b2000000
+Writing data to block 3473 at offset 0x1b2200000
+Writing data to block 3474 at offset 0x1b2400000
+Writing data to block 3475 at offset 0x1b2600000
+Writing data to block 3476 at offset 0x1b2800000
+Writing data to block 3477 at offset 0x1b2a00000
+Writing data to block 3478 at offset 0x1b2c00000
+Writing data to block 3479 at offset 0x1b2e00000
+Writing data to block 3480 at offset 0x1b3000000
+Writing data to block 3481 at offset 0x1b3200000
+Writing data to block 3482 at offset 0x1b3400000
+Writing data to block 3483 at offset 0x1b3600000
+Writing data to block 3484 at offset 0x1b3800000
+Writing data to block 3485 at offset 0x1b3a00000
+Writing data to block 3486 at offset 0x1b3c00000
+Writing data to block 3487 at offset 0x1b3e00000
+Writing data to block 3488 at offset 0x1b4000000
+Writing data to block 3489 at offset 0x1b4200000
+Writing data to block 3490 at offset 0x1b4400000
+Writing data to block 3491 at offset 0x1b4600000
+Writing data to block 3492 at offset 0x1b4800000
+Writing data to block 3493 at offset 0x1b4a00000
+Writing data to block 3494 at offset 0x1b4c00000
+Writing data to block 3495 at offset 0x1b4e00000
+Writing data to block 3496 at offset 0x1b5000000
+Writing data to block 3497 at offset 0x1b5200000
+Writing data to block 3498 at offset 0x1b5400000
+Writing data to block 3499 at offset 0x1b5600000
+Writing data to block 3500 at offset 0x1b5800000
+Writing data to block 3501 at offset 0x1b5a00000
+Writing data to block 3502 at offset 0x1b5c00000
+Writing data to block 3503 at offset 0x1b5e00000
+Writing data to block 3504 at offset 0x1b6000000
+Writing data to block 3505 at offset 0x1b6200000
+Writing data to block 3506 at offset 0x1b6400000
+Writing data to block 3507 at offset 0x1b6600000
+Writing data to block 3508 at offset 0x1b6800000
+Writing data to block 3509 at offset 0x1b6a00000
+Writing data to block 3510 at offset 0x1b6c00000
+Writing data to block 3511 at offset 0x1b6e00000
+Writing data to block 3512 at offset 0x1b7000000
+Writing data to block 3513 at offset 0x1b7200000
+Writing data to block 3514 at offset 0x1b7400000
+Writing data to block 3515 at offset 0x1b7600000
+Writing data to block 3516 at offset 0x1b7800000
+Writing data to block 3517 at offset 0x1b7a00000
+Writing data to block 3518 at offset 0x1b7c00000
+Writing data to block 3519 at offset 0x1b7e00000
+Writing data to block 3520 at offset 0x1b8000000
+Writing data to block 3521 at offset 0x1b8200000
+Writing data to block 3522 at offset 0x1b8400000
+Writing data to block 3523 at offset 0x1b8600000
+Writing data to block 3524 at offset 0x1b8800000
+Writing data to block 3525 at offset 0x1b8a00000
+Writing data to block 3526 at offset 0x1b8c00000
+Writing data to block 3527 at offset 0x1b8e00000
+Writing data to block 3528 at offset 0x1b9000000
+Writing data to block 3529 at offset 0x1b9200000
+Writing data to block 3530 at offset 0x1b9400000
+Writing data to block 3531 at offset 0x1b9600000
+Writing data to block 3532 at offset 0x1b9800000
+Writing data to block 3533 at offset 0x1b9a00000
+Writing data to block 3534 at offset 0x1b9c00000
+Writing data to block 3535 at offset 0x1b9e00000
+Writing data to block 3536 at offset 0x1ba000000
+Writing data to block 3537 at offset 0x1ba200000
+Writing data to block 3538 at offset 0x1ba400000
+Writing data to block 3539 at offset 0x1ba600000
+Writing data to block 3540 at offset 0x1ba800000
+Writing data to block 3541 at offset 0x1baa00000
+Writing data to block 3542 at offset 0x1bac00000
+Writing data to block 3543 at offset 0x1bae00000
+Writing data to block 3544 at offset 0x1bb000000
+Writing data to block 3545 at offset 0x1bb200000
+Writing data to block 3546 at offset 0x1bb400000
+Writing data to block 3547 at offset 0x1bb600000
+Writing data to block 3548 at offset 0x1bb800000
+Writing data to block 3549 at offset 0x1bba00000
+Writing data to block 3550 at offset 0x1bbc00000
+Writing data to block 3551 at offset 0x1bbe00000
+Writing data to block 3552 at offset 0x1bc000000
+Writing data to block 3553 at offset 0x1bc200000
+Writing data to block 3554 at offset 0x1bc400000
+Writing data to block 3555 at offset 0x1bc600000
+Writing data to block 3556 at offset 0x1bc800000
+Writing data to block 3557 at offset 0x1bca00000
+Writing data to block 3558 at offset 0x1bcc00000
+Writing data to block 3559 at offset 0x1bce00000
+Writing data to block 3560 at offset 0x1bd000000
+Writing data to block 3561 at offset 0x1bd200000
+Writing data to block 3562 at offset 0x1bd400000
+Writing data to block 3563 at offset 0x1bd600000
+Writing data to block 3564 at offset 0x1bd800000
+Writing data to block 3565 at offset 0x1bda00000
+Writing data to block 3566 at offset 0x1bdc00000
+Writing data to block 3567 at offset 0x1bde00000
+Writing data to block 3568 at offset 0x1be000000
+Writing data to block 3569 at offset 0x1be200000
+Writing data to block 3570 at offset 0x1be400000
+Writing data to block 3571 at offset 0x1be600000
+Writing data to block 3572 at offset 0x1be800000
+Writing data to block 3573 at offset 0x1bea00000
+Writing data to block 3574 at offset 0x1bec00000
+Writing data to block 3575 at offset 0x1bee00000
+Writing data to block 3576 at offset 0x1bf000000
+Writing data to block 3577 at offset 0x1bf200000
+Writing data to block 3578 at offset 0x1bf400000
+Writing data to block 3579 at offset 0x1bf600000
+Writing data to block 3580 at offset 0x1bf800000
+Writing data to block 3581 at offset 0x1bfa00000
+Writing data to block 3582 at offset 0x1bfc00000
+Writing data to block 3583 at offset 0x1bfe00000
+Writing data to block 3584 at offset 0x1c0000000
+Writing data to block 3585 at offset 0x1c0200000
+Writing data to block 3586 at offset 0x1c0400000
+Writing data to block 3587 at offset 0x1c0600000
+Writing data to block 3588 at offset 0x1c0800000
+Writing data to block 3589 at offset 0x1c0a00000
+Writing data to block 3590 at offset 0x1c0c00000
+Writing data to block 3591 at offset 0x1c0e00000
+Writing data to block 3592 at offset 0x1c1000000
+Writing data to block 3593 at offset 0x1c1200000
+Writing data to block 3594 at offset 0x1c1400000
+Writing data to block 3595 at offset 0x1c1600000
+Writing data to block 3596 at offset 0x1c1800000
+Writing data to block 3597 at offset 0x1c1a00000
+Writing data to block 3598 at offset 0x1c1c00000
+Writing data to block 3599 at offset 0x1c1e00000
+Writing data to block 3600 at offset 0x1c2000000
+Writing data to block 3601 at offset 0x1c2200000
+Writing data to block 3602 at offset 0x1c2400000
+Writing data to block 3603 at offset 0x1c2600000
+Writing data to block 3604 at offset 0x1c2800000
+Writing data to block 3605 at offset 0x1c2a00000
+Writing data to block 3606 at offset 0x1c2c00000
+Writing data to block 3607 at offset 0x1c2e00000
+Writing data to block 3608 at offset 0x1c3000000
+Writing data to block 3609 at offset 0x1c3200000
+Writing data to block 3610 at offset 0x1c3400000
+Writing data to block 3611 at offset 0x1c3600000
+Writing data to block 3612 at offset 0x1c3800000
+Writing data to block 3613 at offset 0x1c3a00000
+Writing data to block 3614 at offset 0x1c3c00000
+Writing data to block 3615 at offset 0x1c3e00000
+Writing data to block 3616 at offset 0x1c4000000
+Writing data to block 3617 at offset 0x1c4200000
+Writing data to block 3618 at offset 0x1c4400000
+Writing data to block 3619 at offset 0x1c4600000
+Writing data to block 3620 at offset 0x1c4800000
+Writing data to block 3621 at offset 0x1c4a00000
+Writing data to block 3622 at offset 0x1c4c00000
+Writing data to block 3623 at offset 0x1c4e00000
+Writing data to block 3624 at offset 0x1c5000000
+Writing data to block 3625 at offset 0x1c5200000
+Writing data to block 3626 at offset 0x1c5400000
+Writing data to block 3627 at offset 0x1c5600000
+Writing data to block 3628 at offset 0x1c5800000
+Writing data to block 3629 at offset 0x1c5a00000
+Writing data to block 3630 at offset 0x1c5c00000
+Writing data to block 3631 at offset 0x1c5e00000
+Writing data to block 3632 at offset 0x1c6000000
+Writing data to block 3633 at offset 0x1c6200000
+Writing data to block 3634 at offset 0x1c6400000
+Writing data to block 3635 at offset 0x1c6600000
+Writing data to block 3636 at offset 0x1c6800000
+Writing data to block 3637 at offset 0x1c6a00000
+Writing data to block 3638 at offset 0x1c6c00000
+Writing data to block 3639 at offset 0x1c6e00000
+Writing data to block 3640 at offset 0x1c7000000
+Writing data to block 3641 at offset 0x1c7200000
+Writing data to block 3642 at offset 0x1c7400000
+Writing data to block 3643 at offset 0x1c7600000
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1162]total time: 63 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_img():1163]Complete!!
+
+
+[INFO][src/rtk_burn.cpp:rtk_burn_single_part():1467]total time: 63 seconds
+
+[INFO][src/rtk_burn.cpp:rtk_burn_single_part():1468]Complete!!
+
+
+[DEBUG][src/rtk_boottable.cpp:remove_part_by_partname():865]Can't find the index of rootfs
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():326]There is no RES partition
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():345]There is no CACHE partition
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():364]There is no DATA partition
+
+[INFO][src/rtk_tagflow.cpp:tagflow3():383]There is no SYSTEM partition
+
+[INFO][src/rtk_config.cpp:etag_to_fwtype():111]unknown E_TAG(23)
+
+[DEBUG][src/rtk_burn.cpp:burn_fwdesc_nand():1935]part_entry add partition_name:rootfs
+
+[DEBUG][src/rtk_burn.cpp:burn_fwdesc_nand():1935]part_entry add partition_name:etc
+
+[DEBUG][src/rtk_burn.cpp:burn_fwdesc_nand():1964]rtk_fw_head.part_count:3
+
+[DEBUG][src/rtk_fwdesc.cpp:save_fwdesc():581]version:0x01 fw_count:6, part_count:3
+
+[DEBUG][src/rtk_fwdesc.cpp:save_fwdesc():601]checksum:0x00001070
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/flash_erase /dev/mtd0 130023424 1
+
+Erasing 2048 Kibyte @ 7c00000 -- 100 % complete
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:/tmp/nandwrite -s 130023424 -p /dev/mtd0 /tmp/fw_tbl.bin
+
+Writing data to block 62 at offset 0x7c00000
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract postprocess.sh file into /tmp/postprocess.sh...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x18639000 (6560 Bytes = 6 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract postprocess.sh from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:chmod 777 /tmp/postprocess.sh
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:/tmp/postprocess.sh
+
+chown: changing ownership of `/sbin/acpi_available': Read-only file system
+chown: changing ownership of `/sbin/agetty': Read-only file system
+chown: changing ownership of `/sbin/apm_available': Read-only file system
+chown: changing ownership of `/sbin/badblocks': Read-only file system
+chown: changing ownership of `/sbin/blkid': Read-only file system
+chown: changing ownership of `/sbin/blockdev': Read-only file system
+chown: changing ownership of `/sbin/brctl': Read-only file system
+chown: changing ownership of `/sbin/busybox': Read-only file system
+chown: changing ownership of `/sbin/cfdisk': Read-only file system
+chown: changing ownership of `/sbin/cgdisk': Read-only file system
+chown: changing ownership of `/sbin/chkconfig': Read-only file system
+chown: changing ownership of `/sbin/ctrlaltdel': Read-only file system
+chown: changing ownership of `/sbin/debugfs': Read-only file system
+chown: changing ownership of `/sbin/dhclient': Read-only file system
+chown: changing ownership of `/sbin/dhclient-script': Read-only file system
+chown: changing ownership of `/sbin/dmsetup': Read-only file system
+chown: changing ownership of `/sbin/dumpe2fs': Read-only file system
+chown: changing ownership of `/sbin/e2fsck': Read-only file system
+chown: changing ownership of `/sbin/e2image': Read-only file system
+chown: changing ownership of `/sbin/e2undo': Read-only file system
+chown: changing ownership of `/sbin/ethtool': Read-only file system
+chown: changing ownership of `/sbin/fdisk': Read-only file system
+chown: changing ownership of `/sbin/findfs': Read-only file system
+chown: changing ownership of `/sbin/fixparts': Read-only file system
+chown: changing ownership of `/sbin/fsadm': Read-only file system
+chown: changing ownership of `/sbin/fsck': Read-only file system
+chown: changing ownership of `/sbin/fsck.cramfs': Read-only file system
+chown: changing ownership of `/sbin/fsck.jfs': Read-only file system
+chown: changing ownership of `/sbin/fsck.minix': Read-only file system
+chown: changing ownership of `/sbin/fsck.nfs': Read-only file system
+chown: changing ownership of `/sbin/fsck.xfs': Read-only file system
+chown: changing ownership of `/sbin/fsfreeze': Read-only file system
+chown: changing ownership of `/sbin/fstab-decode': Read-only file system
+chown: changing ownership of `/sbin/fstrim': Read-only file system
+chown: changing ownership of `/sbin/gdisk': Read-only file system
+chown: changing ownership of `/sbin/getty': Read-only file system
+chown: changing ownership of `/sbin/halt': Read-only file system
+chown: changing ownership of `/sbin/hdparm': Read-only file system
+chown: changing ownership of `/sbin/hwclock': Read-only file system
+chown: changing ownership of `/sbin/ifconfig': Read-only file system
+chown: changing ownership of `/sbin/ifdown': Read-only file system
+chown: changing ownership of `/sbin/ifenslave-2.6': Read-only file system
+chown: changing ownership of `/sbin/ifquery': Read-only file system
+chown: changing ownership of `/sbin/ifup': Read-only file system
+chown: changing ownership of `/sbin/init-orig': Read-only file system
+chown: changing ownership of `/sbin/init-ro': Read-only file system
+chown: changing ownership of `/sbin/insserv': Read-only file system
+chown: changing ownership of `/sbin/installkernel': Read-only file system
+chown: changing ownership of `/sbin/ipmaddr': Read-only file system
+chown: changing ownership of `/sbin/iptunnel': Read-only file system
+chown: changing ownership of `/sbin/isosize': Read-only file system
+chown: changing ownership of `/sbin/iwconfig': Read-only file system
+chown: changing ownership of `/sbin/iwevent': Read-only file system
+chown: changing ownership of `/sbin/iwgetid': Read-only file system
+chown: changing ownership of `/sbin/iwlist': Read-only file system
+chown: changing ownership of `/sbin/iwpriv': Read-only file system
+chown: changing ownership of `/sbin/iwspy': Read-only file system
+chown: changing ownership of `/sbin/jfs_debugfs': Read-only file system
+chown: changing ownership of `/sbin/jfs_fsck': Read-only file system
+chown: changing ownership of `/sbin/jfs_fscklog': Read-only file system
+chown: changing ownership of `/sbin/jfs_logdump': Read-only file system
+chown: changing ownership of `/sbin/jfs_mkfs': Read-only file system
+chown: changing ownership of `/sbin/jfs_tune': Read-only file system
+chown: changing ownership of `/sbin/killall5': Read-only file system
+chown: changing ownership of `/sbin/ldconfig': Read-only file system
+chown: changing ownership of `/sbin/logsave': Read-only file system
+chown: changing ownership of `/sbin/losetup': Read-only file system
+chown: changing ownership of `/sbin/lvm': Read-only file system
+chown: changing ownership of `/sbin/lvmconf': Read-only file system
+chown: changing ownership of `/sbin/lvmdump': Read-only file system
+chown: changing ownership of `/sbin/mdadm': Read-only file system
+chown: changing ownership of `/sbin/mdadm-startall': Read-only file system
+chown: changing ownership of `/sbin/mdmon': Read-only file system
+chown: changing ownership of `/sbin/mii-tool': Read-only file system
+chown: changing ownership of `/sbin/mke2fs': Read-only file system
+chown: changing ownership of `/sbin/mkfs': Read-only file system
+chown: changing ownership of `/sbin/mkfs.bfs': Read-only file system
+chown: changing ownership of `/sbin/mkfs.cramfs': Read-only file system
+chown: changing ownership of `/sbin/mkfs.jfs': Read-only file system
+chown: changing ownership of `/sbin/mkfs.minix': Read-only file system
+chown: changing ownership of `/sbin/mkfs.xfs': Read-only file system
+chown: changing ownership of `/sbin/mkhomedir_helper': Read-only file system
+chown: changing ownership of `/sbin/mkntfs': Read-only file system
+chown: changing ownership of `/sbin/mkswap': Read-only file system
+chown: changing ownership of `/sbin/mount.fuse': Read-only file system
+chown: changing ownership of `/sbin/mount.nfs': Read-only file system
+chown: changing ownership of `/sbin/nameif': Read-only file system
+chown: changing ownership of `/sbin/nfnl_osf': Read-only file system
+chown: changing ownership of `/sbin/ntfsclone': Read-only file system
+chown: changing ownership of `/sbin/ntfscp': Read-only file system
+chown: changing ownership of `/sbin/ntfslabel': Read-only file system
+chown: changing ownership of `/sbin/ntfsresize': Read-only file system
+chown: changing ownership of `/sbin/ntfsundelete': Read-only file system
+chown: changing ownership of `/sbin/on_ac_power': Read-only file system
+chown: changing ownership of `/sbin/osd_login': Read-only file system
+chown: changing ownership of `/sbin/pam_tally': Read-only file system
+chown: changing ownership of `/sbin/pam_tally2': Read-only file system
+chown: changing ownership of `/sbin/parted': Read-only file system
+chown: changing ownership of `/sbin/partprobe': Read-only file system
+chown: changing ownership of `/sbin/pivot_root': Read-only file system
+chown: changing ownership of `/sbin/plipconfig': Read-only file system
+chown: changing ownership of `/sbin/poweroff': Read-only file system
+chown: changing ownership of `/sbin/poweroff_android': Read-only file system
+chown: changing ownership of `/sbin/quotacheck': Read-only file system
+chown: changing ownership of `/sbin/quotaon': Read-only file system
+chown: changing ownership of `/sbin/rarp': Read-only file system
+chown: changing ownership of `/sbin/raw': Read-only file system
+chown: changing ownership of `/sbin/reboot': Read-only file system
+chown: changing ownership of `/sbin/reboot_android': Read-only file system
+chown: changing ownership of `/sbin/resize2fs': Read-only file system
+chown: changing ownership of `/sbin/resolvconf': Read-only file system
+chown: changing ownership of `/sbin/route': Read-only file system
+chown: changing ownership of `/sbin/rpcbind': Read-only file system
+chown: changing ownership of `/sbin/rpc.statd': Read-only file system
+chown: changing ownership of `/sbin/rtacct': Read-only file system
+chown: changing ownership of `/sbin/rtmon': Read-only file system
+chown: changing ownership of `/sbin/runlevel': Read-only file system
+chown: changing ownership of `/sbin/sfdisk': Read-only file system
+chown: changing ownership of `/sbin/sgdisk': Read-only file system
+chown: changing ownership of `/sbin/shadowconfig': Read-only file system
+chown: changing ownership of `/sbin/showmount': Read-only file system
+chown: changing ownership of `/sbin/shutdown': Read-only file system
+chown: changing ownership of `/sbin/slattach': Read-only file system
+chown: changing ownership of `/sbin/sm-notify': Read-only file system
+chown: changing ownership of `/sbin/startpar': Read-only file system
+chown: changing ownership of `/sbin/startpar-upstart-inject': Read-only file system
+chown: changing ownership of `/sbin/start-stop-daemon': Read-only file system
+chown: changing ownership of `/sbin/sulogin': Read-only file system
+chown: changing ownership of `/sbin/swaplabel': Read-only file system
+chown: changing ownership of `/sbin/swapon': Read-only file system
+chown: changing ownership of `/sbin/switch_root': Read-only file system
+chown: changing ownership of `/sbin/sysctl': Read-only file system
+chown: changing ownership of `/sbin/tc': Read-only file system
+chown: changing ownership of `/sbin/tune2fs': Read-only file system
+chown: changing ownership of `/sbin/udevadm': Read-only file system
+chown: changing ownership of `/sbin/udevd': Read-only file system
+chown: changing ownership of `/sbin/unix_chkpwd': Read-only file system
+chown: changing ownership of `/sbin/unix_update': Read-only file system
+chown: changing ownership of `/sbin/upsd': Read-only file system
+chown: changing ownership of `/sbin/upsdrvctl': Read-only file system
+chown: changing ownership of `/sbin/upsmon': Read-only file system
+chown: changing ownership of `/sbin/upssched': Read-only file system
+chown: changing ownership of `/sbin/vgimportclone': Read-only file system
+chown: changing ownership of `/sbin/wipefs': Read-only file system
+chown: changing ownership of `/sbin/wpa_action': Read-only file system
+chown: changing ownership of `/sbin/wpa_cli': Read-only file system
+chown: changing ownership of `/sbin/wpa_supplicant': Read-only file system
+chown: changing ownership of `/sbin/xfs_repair': Read-only file system
+chown: changing ownership of `/sbin/xtables-multi': Read-only file system
+chown: changing ownership of `/bin/bash': Read-only file system
+chown: changing ownership of `/bin/bunzip2': Read-only file system
+chown: changing ownership of `/bin/busybox': Read-only file system
+chown: changing ownership of `/bin/bzcat': Read-only file system
+chown: changing ownership of `/bin/bzdiff': Read-only file system
+chown: changing ownership of `/bin/bzexe': Read-only file system
+chown: changing ownership of `/bin/bzgrep': Read-only file system
+chown: changing ownership of `/bin/bzip2': Read-only file system
+chown: changing ownership of `/bin/bzip2recover': Read-only file system
+chown: changing ownership of `/bin/bzmore': Read-only file system
+chown: changing ownership of `/bin/cat': Read-only file system
+chown: changing ownership of `/bin/chacl': Read-only file system
+chown: changing ownership of `/bin/chgrp': Read-only file system
+chown: changing ownership of `/bin/chmod': Read-only file system
+chown: changing ownership of `/bin/chown': Read-only file system
+chown: changing ownership of `/bin/cp': Read-only file system
+chown: changing ownership of `/bin/cpio': Read-only file system
+chown: changing ownership of `/bin/dash': Read-only file system
+chown: changing ownership of `/bin/date': Read-only file system
+chown: changing ownership of `/bin/dd': Read-only file system
+chown: changing ownership of `/bin/df': Read-only file system
+chown: changing ownership of `/bin/dir': Read-only file system
+chown: changing ownership of `/bin/dmesg': Read-only file system
+chown: changing ownership of `/bin/dnsdomainname': Read-only file system
+chown: changing ownership of `/bin/domainname': Read-only file system
+chown: changing ownership of `/bin/echo': Read-only file system
+chown: changing ownership of `/bin/egrep': Read-only file system
+chown: changing ownership of `/bin/false': Read-only file system
+chown: changing ownership of `/bin/fgrep': Read-only file system
+chown: changing ownership of `/bin/findmnt': Read-only file system
+chown: changing ownership of `/bin/fuser': Read-only file system
+chown: changing ownership of `/bin/fusermount': Read-only file system
+chown: changing ownership of `/bin/getfacl': Read-only file system
+chown: changing ownership of `/bin/grep': Read-only file system
+chown: changing ownership of `/bin/gunzip': Read-only file system
+chown: changing ownership of `/bin/gzexe': Read-only file system
+chown: changing ownership of `/bin/gzip': Read-only file system
+chown: changing ownership of `/bin/hostname': Read-only file system
+chown: changing ownership of `/bin/ip': Read-only file system
+chown: changing ownership of `/bin/kill': Read-only file system
+chown: changing ownership of `/bin/kmod': Read-only file system
+chown: changing ownership of `/bin/less': Read-only file system
+chown: changing ownership of `/bin/lessecho': Read-only file system
+chown: changing ownership of `/bin/lesskey': Read-only file system
+chown: changing ownership of `/bin/lesspipe': Read-only file system
+chown: changing ownership of `/bin/ln': Read-only file system
+chown: changing ownership of `/bin/login': Read-only file system
+chown: changing ownership of `/bin/lowntfs-3g': Read-only file system
+chown: changing ownership of `/bin/ls': Read-only file system
+chown: changing ownership of `/bin/lsblk': Read-only file system
+chown: changing ownership of `/bin/mkdir': Read-only file system
+chown: changing ownership of `/bin/mknod': Read-only file system
+chown: changing ownership of `/bin/mktemp': Read-only file system
+chown: changing ownership of `/bin/more': Read-only file system
+chown: changing ownership of `/bin/mount': Read-only file system
+chown: changing ownership of `/bin/mountpoint': Read-only file system
+chown: changing ownership of `/bin/mt-gnu': Read-only file system
+chown: changing ownership of `/bin/mv': Read-only file system
+chown: changing ownership of `/bin/nano': Read-only file system
+chown: changing ownership of `/bin/nc.traditional': Read-only file system
+chown: changing ownership of `/bin/netstat': Read-only file system
+chown: changing ownership of `/bin/nisdomainname': Read-only file system
+chown: changing ownership of `/bin/ntfs-3g': Read-only file system
+chown: changing ownership of `/bin/ntfs-3g.probe': Read-only file system
+chown: changing ownership of `/bin/ntfs-3g.secaudit': Read-only file system
+chown: changing ownership of `/bin/ntfs-3g.usermap': Read-only file system
+chown: changing ownership of `/bin/ntfscat': Read-only file system
+chown: changing ownership of `/bin/ntfsck': Read-only file system
+chown: changing ownership of `/bin/ntfscluster': Read-only file system
+chown: changing ownership of `/bin/ntfscmp': Read-only file system
+chown: changing ownership of `/bin/ntfsdump_logfile': Read-only file system
+chown: changing ownership of `/bin/ntfsfix': Read-only file system
+chown: changing ownership of `/bin/ntfsinfo': Read-only file system
+chown: changing ownership of `/bin/ntfsls': Read-only file system
+chown: changing ownership of `/bin/ntfsmftalloc': Read-only file system
+chown: changing ownership of `/bin/ntfsmove': Read-only file system
+chown: changing ownership of `/bin/ntfstruncate': Read-only file system
+chown: changing ownership of `/bin/ntfswipe': Read-only file system
+chown: changing ownership of `/bin/ping': Read-only file system
+chown: changing ownership of `/bin/ping6': Read-only file system
+chown: changing ownership of `/bin/ps': Read-only file system
+chown: changing ownership of `/bin/pwd': Read-only file system
+chown: changing ownership of `/bin/readlink': Read-only file system
+chown: changing ownership of `/bin/rm': Read-only file system
+chown: changing ownership of `/bin/rmdir': Read-only file system
+chown: changing ownership of `/bin/run-parts': Read-only file system
+chown: changing ownership of `/bin/sed': Read-only file system
+chown: changing ownership of `/bin/setfacl': Read-only file system
+chown: changing ownership of `/bin/sleep': Read-only file system
+chown: changing ownership of `/bin/ss': Read-only file system
+chown: changing ownership of `/bin/stty': Read-only file system
+chown: changing ownership of `/bin/su': Read-only file system
+chown: changing ownership of `/bin/sync': Read-only file system
+chown: changing ownership of `/bin/systemctl': Read-only file system
+chown: changing ownership of `/bin/systemd-ask-password': Read-only file system
+chown: changing ownership of `/bin/systemd-journalctl': Read-only file system
+chown: changing ownership of `/bin/systemd-loginctl': Read-only file system
+chown: changing ownership of `/bin/systemd-machine-id-setup': Read-only file system
+chown: changing ownership of `/bin/systemd-notify': Read-only file system
+chown: changing ownership of `/bin/systemd-tmpfiles': Read-only file system
+chown: changing ownership of `/bin/systemd-tty-ask-password-agent': Read-only file system
+chown: changing ownership of `/bin/tailf': Read-only file system
+chown: changing ownership of `/bin/tar': Read-only file system
+chown: changing ownership of `/bin/tempfile': Read-only file system
+chown: changing ownership of `/bin/touch': Read-only file system
+chown: changing ownership of `/bin/true': Read-only file system
+chown: changing ownership of `/bin/ulockmgr_server': Read-only file system
+chown: changing ownership of `/bin/umount': Read-only file system
+chown: changing ownership of `/bin/uname': Read-only file system
+chown: changing ownership of `/bin/uncompress': Read-only file system
+chown: changing ownership of `/bin/upsc': Read-only file system
+chown: changing ownership of `/bin/upscmd': Read-only file system
+chown: changing ownership of `/bin/upslog': Read-only file system
+chown: changing ownership of `/bin/upsrw': Read-only file system
+chown: changing ownership of `/bin/upssched-cmd': Read-only file system
+chown: changing ownership of `/bin/vdir': Read-only file system
+chown: changing ownership of `/bin/which': Read-only file system
+chown: changing ownership of `/bin/ypdomainname': Read-only file system
+chown: changing ownership of `/bin/zcat': Read-only file system
+chown: changing ownership of `/bin/zcmp': Read-only file system
+chown: changing ownership of `/bin/zdiff': Read-only file system
+chown: changing ownership of `/bin/zegrep': Read-only file system
+chown: changing ownership of `/bin/zfgrep': Read-only file system
+chown: changing ownership of `/bin/zforce': Read-only file system
+chown: changing ownership of `/bin/zgrep': Read-only file system
+chown: changing ownership of `/bin/zless': Read-only file system
+chown: changing ownership of `/bin/zmore': Read-only file system
+chown: changing ownership of `/bin/znew': Read-only file system
+/tmp/postprocess.sh: line 97: [: too many arguments
+chmod: changing permissions of `/sbin/acpi_available': Read-only file system
+chmod: changing permissions of `/sbin/agetty': Read-only file system
+chmod: changing permissions of `/sbin/apm_available': Read-only file system
+chmod: changing permissions of `/sbin/badblocks': Read-only file system
+chmod: changing permissions of `/sbin/blkid': Read-only file system
+chmod: changing permissions of `/sbin/blockdev': Read-only file system
+chmod: changing permissions of `/sbin/brctl': Read-only file system
+chmod: changing permissions of `/sbin/busybox': Read-only file system
+chmod: changing permissions of `/sbin/cfdisk': Read-only file system
+chmod: changing permissions of `/sbin/cgdisk': Read-only file system
+chmod: changing permissions of `/sbin/chkconfig': Read-only file system
+chmod: changing permissions of `/sbin/ctrlaltdel': Read-only file system
+chmod: changing permissions of `/sbin/debugfs': Read-only file system
+chmod: changing permissions of `/sbin/dhclient': Read-only file system
+chmod: changing permissions of `/sbin/dhclient-script': Read-only file system
+chmod: changing permissions of `/sbin/dmsetup': Read-only file system
+chmod: changing permissions of `/sbin/dumpe2fs': Read-only file system
+chmod: changing permissions of `/sbin/e2fsck': Read-only file system
+chmod: changing permissions of `/sbin/e2image': Read-only file system
+chmod: changing permissions of `/sbin/e2undo': Read-only file system
+chmod: changing permissions of `/sbin/ethtool': Read-only file system
+chmod: changing permissions of `/sbin/fdisk': Read-only file system
+chmod: changing permissions of `/sbin/findfs': Read-only file system
+chmod: changing permissions of `/sbin/fixparts': Read-only file system
+chmod: changing permissions of `/sbin/fsadm': Read-only file system
+chmod: changing permissions of `/sbin/fsck': Read-only file system
+chmod: changing permissions of `/sbin/fsck.cramfs': Read-only file system
+chmod: changing permissions of `/sbin/fsck.jfs': Read-only file system
+chmod: changing permissions of `/sbin/fsck.minix': Read-only file system
+chmod: changing permissions of `/sbin/fsck.nfs': Read-only file system
+chmod: changing permissions of `/sbin/fsck.xfs': Read-only file system
+chmod: changing permissions of `/sbin/fsfreeze': Read-only file system
+chmod: changing permissions of `/sbin/fstab-decode': Read-only file system
+chmod: changing permissions of `/sbin/fstrim': Read-only file system
+chmod: changing permissions of `/sbin/gdisk': Read-only file system
+chmod: changing permissions of `/sbin/getty': Read-only file system
+chmod: changing permissions of `/sbin/halt': Read-only file system
+chmod: changing permissions of `/sbin/hdparm': Read-only file system
+chmod: changing permissions of `/sbin/hwclock': Read-only file system
+chmod: changing permissions of `/sbin/ifconfig': Read-only file system
+chmod: changing permissions of `/sbin/ifdown': Read-only file system
+chmod: changing permissions of `/sbin/ifenslave-2.6': Read-only file system
+chmod: changing permissions of `/sbin/ifquery': Read-only file system
+chmod: changing permissions of `/sbin/ifup': Read-only file system
+chmod: changing permissions of `/sbin/init-orig': Read-only file system
+chmod: changing permissions of `/sbin/init-ro': Read-only file system
+chmod: changing permissions of `/sbin/insserv': Read-only file system
+chmod: changing permissions of `/sbin/installkernel': Read-only file system
+chmod: changing permissions of `/sbin/ipmaddr': Read-only file system
+chmod: changing permissions of `/sbin/iptunnel': Read-only file system
+chmod: changing permissions of `/sbin/isosize': Read-only file system
+chmod: changing permissions of `/sbin/iwconfig': Read-only file system
+chmod: changing permissions of `/sbin/iwevent': Read-only file system
+chmod: changing permissions of `/sbin/iwgetid': Read-only file system
+chmod: changing permissions of `/sbin/iwlist': Read-only file system
+chmod: changing permissions of `/sbin/iwpriv': Read-only file system
+chmod: changing permissions of `/sbin/iwspy': Read-only file system
+chmod: changing permissions of `/sbin/jfs_debugfs': Read-only file system
+chmod: changing permissions of `/sbin/jfs_fsck': Read-only file system
+chmod: changing permissions of `/sbin/jfs_fscklog': Read-only file system
+chmod: changing permissions of `/sbin/jfs_logdump': Read-only file system
+chmod: changing permissions of `/sbin/jfs_mkfs': Read-only file system
+chmod: changing permissions of `/sbin/jfs_tune': Read-only file system
+chmod: changing permissions of `/sbin/killall5': Read-only file system
+chmod: changing permissions of `/sbin/ldconfig': Read-only file system
+chmod: changing permissions of `/sbin/logsave': Read-only file system
+chmod: changing permissions of `/sbin/losetup': Read-only file system
+chmod: changing permissions of `/sbin/lvm': Read-only file system
+chmod: changing permissions of `/sbin/lvmconf': Read-only file system
+chmod: changing permissions of `/sbin/lvmdump': Read-only file system
+chmod: changing permissions of `/sbin/mdadm': Read-only file system
+chmod: changing permissions of `/sbin/mdadm-startall': Read-only file system
+chmod: changing permissions of `/sbin/mdmon': Read-only file system
+chmod: changing permissions of `/sbin/mii-tool': Read-only file system
+chmod: changing permissions of `/sbin/mke2fs': Read-only file system
+chmod: changing permissions of `/sbin/mkfs': Read-only file system
+chmod: changing permissions of `/sbin/mkfs.bfs': Read-only file system
+chmod: changing permissions of `/sbin/mkfs.cramfs': Read-only file system
+chmod: changing permissions of `/sbin/mkfs.jfs': Read-only file system
+chmod: changing permissions of `/sbin/mkfs.minix': Read-only file system
+chmod: changing permissions of `/sbin/mkfs.xfs': Read-only file system
+chmod: changing permissions of `/sbin/mkhomedir_helper': Read-only file system
+chmod: changing permissions of `/sbin/mkntfs': Read-only file system
+chmod: changing permissions of `/sbin/mkswap': Read-only file system
+chmod: changing permissions of `/sbin/mount.fuse': Read-only file system
+chmod: changing permissions of `/sbin/mount.nfs': Read-only file system
+chmod: changing permissions of `/sbin/nameif': Read-only file system
+chmod: changing permissions of `/sbin/nfnl_osf': Read-only file system
+chmod: changing permissions of `/sbin/ntfsclone': Read-only file system
+chmod: changing permissions of `/sbin/ntfscp': Read-only file system
+chmod: changing permissions of `/sbin/ntfslabel': Read-only file system
+chmod: changing permissions of `/sbin/ntfsresize': Read-only file system
+chmod: changing permissions of `/sbin/ntfsundelete': Read-only file system
+chmod: changing permissions of `/sbin/on_ac_power': Read-only file system
+chmod: changing permissions of `/sbin/osd_login': Read-only file system
+chmod: changing permissions of `/sbin/pam_tally': Read-only file system
+chmod: changing permissions of `/sbin/pam_tally2': Read-only file system
+chmod: changing permissions of `/sbin/parted': Read-only file system
+chmod: changing permissions of `/sbin/partprobe': Read-only file system
+chmod: changing permissions of `/sbin/pivot_root': Read-only file system
+chmod: changing permissions of `/sbin/plipconfig': Read-only file system
+chmod: changing permissions of `/sbin/poweroff': Read-only file system
+chmod: changing permissions of `/sbin/poweroff_android': Read-only file system
+chmod: changing permissions of `/sbin/quotacheck': Read-only file system
+chmod: changing permissions of `/sbin/quotaon': Read-only file system
+chmod: changing permissions of `/sbin/rarp': Read-only file system
+chmod: changing permissions of `/sbin/raw': Read-only file system
+chmod: changing permissions of `/sbin/reboot': Read-only file system
+chmod: changing permissions of `/sbin/reboot_android': Read-only file system
+chmod: changing permissions of `/sbin/resize2fs': Read-only file system
+chmod: changing permissions of `/sbin/resolvconf': Read-only file system
+chmod: changing permissions of `/sbin/route': Read-only file system
+chmod: changing permissions of `/sbin/rpcbind': Read-only file system
+chmod: changing permissions of `/sbin/rpc.statd': Read-only file system
+chmod: changing permissions of `/sbin/rtacct': Read-only file system
+chmod: changing permissions of `/sbin/rtmon': Read-only file system
+chmod: changing permissions of `/sbin/runlevel': Read-only file system
+chmod: changing permissions of `/sbin/sfdisk': Read-only file system
+chmod: changing permissions of `/sbin/sgdisk': Read-only file system
+chmod: changing permissions of `/sbin/shadowconfig': Read-only file system
+chmod: changing permissions of `/sbin/showmount': Read-only file system
+chmod: changing permissions of `/sbin/shutdown': Read-only file system
+chmod: changing permissions of `/sbin/slattach': Read-only file system
+chmod: changing permissions of `/sbin/sm-notify': Read-only file system
+chmod: changing permissions of `/sbin/startpar': Read-only file system
+chmod: changing permissions of `/sbin/startpar-upstart-inject': Read-only file system
+chmod: changing permissions of `/sbin/start-stop-daemon': Read-only file system
+chmod: changing permissions of `/sbin/sulogin': Read-only file system
+chmod: changing permissions of `/sbin/swaplabel': Read-only file system
+chmod: changing permissions of `/sbin/swapon': Read-only file system
+chmod: changing permissions of `/sbin/switch_root': Read-only file system
+chmod: changing permissions of `/sbin/sysctl': Read-only file system
+chmod: changing permissions of `/sbin/tc': Read-only file system
+chmod: changing permissions of `/sbin/tune2fs': Read-only file system
+chmod: changing permissions of `/sbin/udevadm': Read-only file system
+chmod: changing permissions of `/sbin/udevd': Read-only file system
+chmod: changing permissions of `/sbin/unix_chkpwd': Read-only file system
+chmod: changing permissions of `/sbin/unix_update': Read-only file system
+chmod: changing permissions of `/sbin/upsd': Read-only file system
+chmod: changing permissions of `/sbin/upsdrvctl': Read-only file system
+chmod: changing permissions of `/sbin/upsmon': Read-only file system
+chmod: changing permissions of `/sbin/upssched': Read-only file system
+chmod: changing permissions of `/sbin/vgimportclone': Read-only file system
+chmod: changing permissions of `/sbin/wipefs': Read-only file system
+chmod: changing permissions of `/sbin/wpa_action': Read-only file system
+chmod: changing permissions of `/sbin/wpa_cli': Read-only file system
+chmod: changing permissions of `/sbin/wpa_supplicant': Read-only file system
+chmod: changing permissions of `/sbin/xfs_repair': Read-only file system
+chmod: changing permissions of `/sbin/xtables-multi': Read-only file system
+chmod: changing permissions of `/bin/bash': Read-only file system
+chmod: changing permissions of `/bin/bunzip2': Read-only file system
+chmod: changing permissions of `/bin/busybox': Read-only file system
+chmod: changing permissions of `/bin/bzcat': Read-only file system
+chmod: changing permissions of `/bin/bzdiff': Read-only file system
+chmod: changing permissions of `/bin/bzexe': Read-only file system
+chmod: changing permissions of `/bin/bzgrep': Read-only file system
+chmod: changing permissions of `/bin/bzip2': Read-only file system
+chmod: changing permissions of `/bin/bzip2recover': Read-only file system
+chmod: changing permissions of `/bin/bzmore': Read-only file system
+chmod: changing permissions of `/bin/cat': Read-only file system
+chmod: changing permissions of `/bin/chacl': Read-only file system
+chmod: changing permissions of `/bin/chgrp': Read-only file system
+chmod: changing permissions of `/bin/chmod': Read-only file system
+chmod: changing permissions of `/bin/chown': Read-only file system
+chmod: changing permissions of `/bin/cp': Read-only file system
+chmod: changing permissions of `/bin/cpio': Read-only file system
+chmod: changing permissions of `/bin/dash': Read-only file system
+chmod: changing permissions of `/bin/date': Read-only file system
+chmod: changing permissions of `/bin/dd': Read-only file system
+chmod: changing permissions of `/bin/df': Read-only file system
+chmod: changing permissions of `/bin/dir': Read-only file system
+chmod: changing permissions of `/bin/dmesg': Read-only file system
+chmod: changing permissions of `/bin/dnsdomainname': Read-only file system
+chmod: changing permissions of `/bin/domainname': Read-only file system
+chmod: changing permissions of `/bin/echo': Read-only file system
+chmod: changing permissions of `/bin/egrep': Read-only file system
+chmod: changing permissions of `/bin/false': Read-only file system
+chmod: changing permissions of `/bin/fgrep': Read-only file system
+chmod: changing permissions of `/bin/findmnt': Read-only file system
+chmod: changing permissions of `/bin/fuser': Read-only file system
+chmod: changing permissions of `/bin/fusermount': Read-only file system
+chmod: changing permissions of `/bin/getfacl': Read-only file system
+chmod: changing permissions of `/bin/grep': Read-only file system
+chmod: changing permissions of `/bin/gunzip': Read-only file system
+chmod: changing permissions of `/bin/gzexe': Read-only file system
+chmod: changing permissions of `/bin/gzip': Read-only file system
+chmod: changing permissions of `/bin/hostname': Read-only file system
+chmod: changing permissions of `/bin/ip': Read-only file system
+chmod: changing permissions of `/bin/kill': Read-only file system
+chmod: changing permissions of `/bin/kmod': Read-only file system
+chmod: changing permissions of `/bin/less': Read-only file system
+chmod: changing permissions of `/bin/lessecho': Read-only file system
+chmod: changing permissions of `/bin/lesskey': Read-only file system
+chmod: changing permissions of `/bin/lesspipe': Read-only file system
+chmod: changing permissions of `/bin/ln': Read-only file system
+chmod: changing permissions of `/bin/login': Read-only file system
+chmod: changing permissions of `/bin/lowntfs-3g': Read-only file system
+chmod: changing permissions of `/bin/ls': Read-only file system
+chmod: changing permissions of `/bin/lsblk': Read-only file system
+chmod: changing permissions of `/bin/mkdir': Read-only file system
+chmod: changing permissions of `/bin/mknod': Read-only file system
+chmod: changing permissions of `/bin/mktemp': Read-only file system
+chmod: changing permissions of `/bin/more': Read-only file system
+chmod: changing permissions of `/bin/mount': Read-only file system
+chmod: changing permissions of `/bin/mountpoint': Read-only file system
+chmod: changing permissions of `/bin/mt-gnu': Read-only file system
+chmod: changing permissions of `/bin/mv': Read-only file system
+chmod: changing permissions of `/bin/nano': Read-only file system
+chmod: changing permissions of `/bin/nc.traditional': Read-only file system
+chmod: changing permissions of `/bin/netstat': Read-only file system
+chmod: changing permissions of `/bin/nisdomainname': Read-only file system
+chmod: changing permissions of `/bin/ntfs-3g': Read-only file system
+chmod: changing permissions of `/bin/ntfs-3g.probe': Read-only file system
+chmod: changing permissions of `/bin/ntfs-3g.secaudit': Read-only file system
+chmod: changing permissions of `/bin/ntfs-3g.usermap': Read-only file system
+chmod: changing permissions of `/bin/ntfscat': Read-only file system
+chmod: changing permissions of `/bin/ntfsck': Read-only file system
+chmod: changing permissions of `/bin/ntfscluster': Read-only file system
+chmod: changing permissions of `/bin/ntfscmp': Read-only file system
+chmod: changing permissions of `/bin/ntfsdump_logfile': Read-only file system
+chmod: changing permissions of `/bin/ntfsfix': Read-only file system
+chmod: changing permissions of `/bin/ntfsinfo': Read-only file system
+chmod: changing permissions of `/bin/ntfsls': Read-only file system
+chmod: changing permissions of `/bin/ntfsmftalloc': Read-only file system
+chmod: changing permissions of `/bin/ntfsmove': Read-only file system
+chmod: changing permissions of `/bin/ntfstruncate': Read-only file system
+chmod: changing permissions of `/bin/ntfswipe': Read-only file system
+chmod: changing permissions of `/bin/ping': Read-only file system
+chmod: changing permissions of `/bin/ping6': Read-only file system
+chmod: changing permissions of `/bin/ps': Read-only file system
+chmod: changing permissions of `/bin/pwd': Read-only file system
+chmod: changing permissions of `/bin/readlink': Read-only file system
+chmod: changing permissions of `/bin/rm': Read-only file system
+chmod: changing permissions of `/bin/rmdir': Read-only file system
+chmod: changing permissions of `/bin/run-parts': Read-only file system
+chmod: changing permissions of `/bin/sed': Read-only file system
+chmod: changing permissions of `/bin/setfacl': Read-only file system
+chmod: changing permissions of `/bin/sleep': Read-only file system
+chmod: changing permissions of `/bin/ss': Read-only file system
+chmod: changing permissions of `/bin/stty': Read-only file system
+chmod: changing permissions of `/bin/su': Read-only file system
+chmod: changing permissions of `/bin/sync': Read-only file system
+chmod: changing permissions of `/bin/systemctl': Read-only file system
+chmod: changing permissions of `/bin/systemd-ask-password': Read-only file system
+chmod: changing permissions of `/bin/systemd-journalctl': Read-only file system
+chmod: changing permissions of `/bin/systemd-loginctl': Read-only file system
+chmod: changing permissions of `/bin/systemd-machine-id-setup': Read-only file system
+chmod: changing permissions of `/bin/systemd-notify': Read-only file system
+chmod: changing permissions of `/bin/systemd-tmpfiles': Read-only file system
+chmod: changing permissions of `/bin/systemd-tty-ask-password-agent': Read-only file system
+chmod: changing permissions of `/bin/tailf': Read-only file system
+chmod: changing permissions of `/bin/tar': Read-only file system
+chmod: changing permissions of `/bin/tempfile': Read-only file system
+chmod: changing permissions of `/bin/touch': Read-only file system
+chmod: changing permissions of `/bin/true': Read-only file system
+chmod: changing permissions of `/bin/ulockmgr_server': Read-only file system
+chmod: changing permissions of `/bin/umount': Read-only file system
+chmod: changing permissions of `/bin/uname': Read-only file system
+chmod: changing permissions of `/bin/uncompress': Read-only file system
+chmod: changing permissions of `/bin/upsc': Read-only file system
+chmod: changing permissions of `/bin/upscmd': Read-only file system
+chmod: changing permissions of `/bin/upslog': Read-only file system
+chmod: changing permissions of `/bin/upsrw': Read-only file system
+chmod: changing permissions of `/bin/upssched-cmd': Read-only file system
+chmod: changing permissions of `/bin/vdir': Read-only file system
+chmod: changing permissions of `/bin/which': Read-only file system
+chmod: changing permissions of `/bin/ypdomainname': Read-only file system
+chmod: changing permissions of `/bin/zcat': Read-only file system
+chmod: changing permissions of `/bin/zcmp': Read-only file system
+chmod: changing permissions of `/bin/zdiff': Read-only file system
+chmod: changing permissions of `/bin/zegrep': Read-only file system
+chmod: changing permissions of `/bin/zfgrep': Read-only file system
+chmod: changing permissions of `/bin/zforce': Read-only file system
+chmod: changing permissions of `/bin/zgrep': Read-only file system
+chmod: changing permissions of `/bin/zless': Read-only file system
+chmod: changing permissions of `/bin/zmore': Read-only file system
+chmod: changing permissions of `/bin/znew': Read-only file system
+/tmp/postprocess.sh: line 174: [: too many arguments
+[INFO][src/rtk_burn.cpp:rtk_install_factory():2981]
+[Install factory]
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4202]
+Extract omv/factory.tar file into /tmp/install_factory.tar...
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4204]tarfile_offset:0x18236400 (10240 Bytes = 10 KB)
+
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4230]extract omv/factory.tar from install.img-rtk
+[INFO][src/rtk_burn.cpp:rtk_extract_file():4250]extract ok
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/install_factory;mkdir -p /tmp/install_factory;tar -xf /tmp/install_factory.tar -C /tmp/install_factory/
+
+"PARTNAME:FW Image (FACTORY)"
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=60 | tar x
+
+[LOG][src/rtk_burn.cpp:rtk_install_factory():3034]
+[ifcmd0]
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:cd ../../;cp -rpf tmp/install_factory/* tmp/factory/;
+
+cp: cannot stat `tmp/install_factory/*': No such file or directory
+[DEBUG][src/rtk_common.cpp:rtk_command():247]Can't exec command:cd ../../;cp -rpf tmp/install_factory/* tmp/factory/;, (line=3035) (file=src/rtk_burn.cpp) (ret=256)
+
+[DEBUG][src/rtk_burn.cpp:rtk_install_factory():3036]install factory command0 fail!
+
+[LOG][src/rtk_burn.cpp:rtk_install_factory():3038]
+[ifcmd1]
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:rm -rf /tmp/factory/recovery;
+
+[LOG][src/rtk_burn.cpp:rtk_install_factory():3042]
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 0 seq_num = 275
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=58 conv=notrunc,fsync  > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.402113 s, 358 kB/s
+[DEBUG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1474]rtk_install_factory(0)
+
+[LOG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1492]
+
+Write boottable
+
+[DEBUG][src/rtk_main.cpp:rtk_burn_rtkimg_from_usb():1493]claire set fsync false this time
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=58 | tar x
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 1 seq_num = 276
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=60 conv=notrunc > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.399622 s, 360 kB/s
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:rm -rf /tmp/factory;mkdir -p /tmp/factory
+
+[DEBUG][src/rtk_common.cpp:rtk_command():239]Command:cd /;dd if=/dev/mtdblock0 bs=2097152 count=2 skip=60 | tar x
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 0 seq_num = 277
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=58 conv=notrunc,fsync  > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.4021 s, 358 kB/s
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 1 seq_num = 278
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=60 conv=notrunc,fsync  > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.400715 s, 359 kB/s
+[DEBUG][src/rtk_burn.cpp:rtk_flush_pingpong_factory_mac():3122]current_pp = 1
+
+[DEBUG][src/rtk_burn.cpp:rtk_flush_pingpong_factory_mac():3125]claire set fsync false this time
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:tar cf /tmp/factory.tar /tmp/factory
+
+tar: Removing leading `/' from member names
+[DEBUG][src/rtk_factory.cpp:factory_flush():385]*****************
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():348]header (512 bytes) 143360
+
+[DEBUG][src/rtk_factory.cpp:factory_build_header():349]RTK
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_common.cpp:rtk_ptr_to_file():374]ret = 512
+
+[DEBUG][src/rtk_factory.cpp:factory_flush():387]*****************
+
+[LOG][src/rtk_factory.cpp:factory_flush():395]/tmp/factory.tar filesize:143872 bytes
+
+[INFO][src/rtk_factory.cpp:factory_flush():402]save to current_pp = 0 seq_num = 279
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:dd if=/tmp/factory.tar of=/dev/mtdblock0 bs=2097152 count=2 seek=58 conv=notrunc,fsync  > /dev/null
+
+0+1 records in
+0+1 records out
+143872 bytes (144 kB) copied, 0.401382 s, 358 kB/s
+"BURN_SUCCESS"
+[DEBUG][install_a.cpp:main():303]rtk_burn_rtkimg_from_usb(0)
+
+[INFO][install_a.cpp:main():314]
+install time:81 seconds
+
+[INFO][install_a.cpp:main():315]DHC install_a (JH version), date:Apr 17 2014, time:14:19:00 REV:
+
+[INFO][install_a.cpp:main():332]
+=== INSTALL SUCCESS ===
+
+
+[LOG][install_a.cpp:main():339]reboot after 5 seconds...
+[LOG][install_a.cpp:main():339]reboot after 4 seconds...
+libpng warning: iCCP: known incorrect sRGB profile
+[LOG][install_a.cpp:main():339]reboot after 3 seconds...
+[LOG][install_a.cpp:main():339]reboot after 2 seconds...
+[LOG][install_a.cpp:main():339]reboot after 1 seconds...
+[INFO][install_a.cpp:main():343]rebooting...
+
+[INFO][src/rtk_common.cpp:rtk_command():237]Command:umount
+
+Usage: umount -h | -V
+       umount -a [-d] [-f] [-r[  995.324314] Restarting system.
+] [-n] [-v] [-t vfstypes] [-O op[  995.330258] Restarting Linux version 3.10.24-rtk-nas (sd10@sd10-VirtualBox) (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG realtek gcc-4.8.3+svn204657 Realtek 2013.11.29) ) #25 SMP PREEMPT Fri Apr 18 10:25:56 CST 2014
+[  995.330258]
+ts]
+       umount [-d] [-f] [-r] [-n] [-v] special | node...
+[DEBUG][src/rtk_common.cpp:rtk_command():247]Can't exec command:umount , (line=355) (file=install_a.cpp) (ret=512)
+
+
+Message from syslogd@RealtekNAS at Apr 11 19:24:33 ...
+ kernel:[  995.324314] Restarting system.
+
+Message from syslogd@RealtekNAS at Apr 11 19:24:33 ...
+ kernel:[  995.330258] Restarting Linux version 3.10.24-rtk-nas (sd10@sd10-VirtualBox) (gcc version 4.8.3 20131111 (prerelease) (crosstool-NG realtek gcc-4.8.3+svn204657 Realtek 2013.11.29) ) #25 SMP PREEMPT Fri Apr 18 10:25:56 CST 2014
+
+Message from syslogd@RealtekNAS at Apr 11 19:24:33 ...
+ kernel:[  995.330258]
+
+?hb
+
